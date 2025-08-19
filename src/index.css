@@ -6,11 +6,15 @@ body {
 
 .container {
   height: 80vh;
+  width: 50vw;
+  margin: auto;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   gap: 1rem;
+  border: 2px solid yellow;
+  border-radius: 20%;
 }
 
 .container input {

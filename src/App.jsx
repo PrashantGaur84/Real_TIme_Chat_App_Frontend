@@ -6,7 +6,7 @@ import { io } from 'socket.io-client'
 import Chat from './Chat';
 
 const App = () => {
-  const socket = useMemo(() => io("http://localhost:3000"), []);
+  const socket = useMemo(() => io("https://real-time-chat-app-backend-a13p.onrender.com"), []);
 
   const [name, setName] = useState("");
   const [room, setRoom] = useState("");

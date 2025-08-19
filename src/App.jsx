@@ -31,9 +31,9 @@ const App = () => {
       {
         !joined && (
           <div className="container">
-            <h3>Enter your Name</h3>
+            <h1>Enter your Name</h1>
             <input type="text" value={name} onChange={(e) => setName(e.target.value)} />
-            <h3>Enter room Number</h3>
+            <h1>Enter Room Number</h1>
             <input type="text" value={room} onChange={(e) => setRoom(e.target.value)} />
             <button onClick={join_room} >Join</button>
           </div>
